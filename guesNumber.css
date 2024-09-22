@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+   
+}
+body {
+    background: aqua;
+    padding: 0px;
+    opacity: 0.9;
+}
+.head-box{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: violet;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 40%;
+    left: 25%;
+    position: fixed;
+}
+
+.head-box h1{
+    color: rgb(240, 0, 0);
+}
+.head-box input{
+    padding: 10px;
+    border-radius: 9px;
+    border-style:hidden;
+    cursor: pointer;
+}
+#Result{
+    display:block;
+   transition: 0.2ms;
+
+}
+.head-box button{
+    background: lightblue;
+    padding: 10px;
+    border-radius: 9px;
+    border-style:hidden;
+    cursor: pointer;
+}
+.try-button {
+    display: none;
+
+}
